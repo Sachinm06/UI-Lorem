@@ -68,7 +68,7 @@
         display: block;
     }
     #toggleImage {
-        display: none;
+        display: none2;
     }
 }
 @media screen and (min-width: 992px) {
