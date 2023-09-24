@@ -3,7 +3,29 @@
     border: 0;
     box-sizing: border-box;
 }
-body {
-    background: rgb(135, 130, 130);
+
+@font-face {
+    font-family: avenirMed;
+    src: url(../fonts/AvenirMedium.ttf);
+}
+
+@font-face {
+    font-family: avenirBook;
+    src: url(../fonts/AvenirBook.ttf);
+}
+
+@font-face {
+    font-family: avenirRoman;
+    src: url(../fonts/avenir-roman.ttf);
+}
+
+@font-face {
+    font-family: avenirBlack;
+    src: url(../fonts/avenir-black.ttf);
+}
+
+@font-face {
+    font-family: avenirLight;
+    src: url(../fonts/AvenirLight.ttf);
 }
 

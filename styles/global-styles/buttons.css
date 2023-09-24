@@ -1,0 +1,46 @@
+/* --------learn more button------------- */
+
+.button-container {
+    margin-top: -6px;
+}
+
+.button-container a {
+    padding-right: 12px;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    background: transparent;
+    color: var(--color-content-1);
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    font-family: var(--avenir-roman);
+    border: var(--color-primary) solid 1px;
+    font-weight: 500;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.banner-arrow {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 94px;
+    margin-top: -14px;
+}
+
+.learn-more-button::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-primary);
+    top: 50%;
+    right: 27px;
+    /* vertically center an element */
+    transform: translateY(-50%);
+}

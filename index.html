@@ -14,19 +14,29 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Media query -->
-    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./styles/responsive.css">
+    <!-- slick-carousel -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- styles -->
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/color.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/global-styles/color.css">
+    <link rel="stylesheet" href="./styles/global-styles/fonts.css">
+    <link rel="stylesheet" href="./styles/global-styles/buttons.css">
+    <link rel="stylesheet" href="./styles/header/header.css">
+    <link rel="stylesheet" href="./styles/carousel/carousel.css">
+    <!-- Media query -->
+    <link rel="stylesheet"
+        media="screen and (max-width: 300px), screen and (max-width: 900px), screen and (max-width: 991px),screen and (min-width: 992px), screen and (max-width: 1200px)"
+        href="./styles/header/header-responsive.css">
+    <link rel="stylesheet" media="screen and (max-width: 1050px)" href="./styles/carousel/carousel-responsive.css">
+
+
 </head>
 
 <body>
+
     <header>
-        <!------------------ logo section---------------->
+        <!----------- logo section---------------->
 
         <div class="brand-logo">
             <a class="navbar-brand ms-5" href="#">
@@ -34,7 +44,7 @@
             </a>
         </div>
 
-        <!-- ---------------navigation section-------- -->
+        <!-- ------navigation section-------- -->
 
         <nav class="navbar navbar-expand-lg navBar">
             <div class="container-fluid menuIcon">
@@ -71,7 +81,7 @@
             </div>
         </nav>
 
-        <!-- -----------------search area----------- -->
+        <!-- ------search area----------- -->
 
         <div class="search-area">
             <div class="search-icon">
@@ -92,11 +102,98 @@
         </div>
     </header>
 
+    <!-- ----------------------------------------------carousel-------------------------------->
+
+    <section>
+        <div class="slider-area">
+            <div class="slider-img">
+                <div class="slide">
+                    <div class="slide-text">
+
+                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
+
+                        <div class="button-container">
+                            <a href="#" class="learn-more-button buttonB">
+                                LEARN MORE <img src="./images/learnmore_banner.png" alt="Arrow"
+                                    class="arrow banner-arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+
+                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
+
+                        <div class="button-container">
+                            <a href="#" class="learn-more-button buttonB">
+                                LEARN MORE <img src="./images/learnmore_banner.png" alt="Arrow"
+                                    class="arrow banner-arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <div class="slide-text">
+
+                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
+
+                        <div class="button-container">
+                            <a href="#" class="learn-more-button buttonB">
+                                LEARN MORE <img src="./images/learnmore_banner.png" alt="Arrow"
+                                    class="arrow banner-arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                </div>
+                <div class="slide">
+
+                    <img src="./images/banner_1920_550.jpg" alt="">
+                    <div class="slide-text">
+
+                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
+
+                        <div class="button-container">
+                            <a href="#" class="learn-more-button buttonB">
+                                LEARN MORE <img src="./images/learnmore_banner.png" alt="Arrow"
+                                    class="arrow banner-arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
 
 
 
     <!-- -----------------------------------scripts----------------------------- -->
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

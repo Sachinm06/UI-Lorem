@@ -3,7 +3,7 @@
 header {
     display: flex;
     height: 100px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1;
@@ -62,7 +62,6 @@ nav {
 
 .navbar-nav {
     display: flex;
-    align-items: flex-end;
     margin-top: 50px;
 }
 .navbar-nav li {
@@ -76,7 +75,7 @@ nav {
 .navbar-nav .nav-link.active {
     color: var(--color-primary) !important;
     font-size: 15px;
-    font-family: var(--font-heading)
+    font-family: var(--avenir-black)
 }
 
 .navbar-nav .nav-link.active:hover {
@@ -145,7 +144,7 @@ nav {
     width: 16em;
     transition: all ease-in-out .5s;
     margin-right: -2.5rem;
-    font-family: var(--font-body);
+    font-family: var(--avenir-light);
 }
 .search__input::placeholder{
     font-size: 13px;

@@ -1,0 +1,88 @@
+@media screen and (max-width: 300px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        width: 100px;
+    }
+
+    .search__input {
+        box-shadow: 0px 4px 20px -1px var(--color-shadow-1);
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-logo {
+        margin-top: 30px;
+    }
+
+    .navBar {
+        margin-top: -43px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #navbarNav {
+        margin-left: 10px;
+    }
+
+    .search-area {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .custom-input {
+        display: block;
+        border: 2px solid var(--color-secondary);
+        display: flex;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    #inputBox {
+        display: none;
+    }
+
+    .menuIcon {
+        display: flex;
+        justify-content: end !important;
+    }
+
+    .custom-input {
+        display: block;
+    }
+    #toggleImage {
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) {
+    .custom-input {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    #inputBox {
+        margin-left: -101px;
+    }
+
+    .navbar-nav li{
+        margin-right: 0px !important;
+    }
+}

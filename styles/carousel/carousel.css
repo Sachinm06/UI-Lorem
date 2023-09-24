@@ -1,0 +1,92 @@
+.slider-area {
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.slider-img {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide img {
+    /* width: 100%; */
+    height: auto;
+    display: block;
+}
+
+.slide-text {
+    position: absolute;
+    top: 150px;
+    left: 8vw;
+    color: var(--color-content-1);
+}
+
+.slide-text h2 {
+    font-family: var(--avenir-medium);
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.slide-text p {
+    font-family: var(--avenir-medium);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 26px;
+}
+/* -----circle button---- */
+
+.slick-slide img {
+    height: 550px;
+    width: 100%;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 16px 0;
+    list-style: none;
+    bottom: 18px !important;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+    border-radius: 50%;
+    border: var(--color-content-1) 1px solid;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.slick-dots button {
+    display: block;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--color-primary);
+    color: transparent;
+}
+
+.slick-dots li button:before {
+    color: transparent !important;
+}
+
+/* ---- */
+
+.buttonB:hover::after {
+    background-color: var(--color-content-1);
+}
+
+.buttonB:hover {
+    border: var(--color-content-1) solid 1px;
+
+}
