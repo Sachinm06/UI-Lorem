@@ -1,16 +1,13 @@
 // ------------search icon--------------
 
-const imageElement = document.getElementById('toggleImage');
+const toggleImage = document.getElementById('toggleImage');
 const inputBox = document.getElementById('inputBox');
-const imageSrcArray = ["./images/search.png", "./images/search_close.jpg"];
-let currentImageIndex = 0;
 
-imageElement.addEventListener('click', () => {
+toggleImage.addEventListener('click', () => {
     inputBox.classList.toggle('hidden');
-
-    currentImageIndex = (currentImageIndex + 1) % imageSrcArray.length;
-    imageElement.src = imageSrcArray[currentImageIndex];
+    toggleImage.classList.toggle('close');
 });
+
 
 // -----------nav closing button-------------
 
@@ -27,6 +24,11 @@ document.querySelector(".navbar-toggler").addEventListener("click", function () 
         closeIcon.style.display = "none";
     }
 });
+
+
+
+
+
 
 // -------------carousel------------------
 

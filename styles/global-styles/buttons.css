@@ -1,22 +1,21 @@
-/* --------learn more button------------- */
 
-.button-container {
+/* .button-container {
     margin-top: -6px;
-}
+} */
 
 .button-container a {
-    padding-right: 12px;
+    padding-right: .5rem;
 }
 
-.learn-more-button {
+.primary-button {
     display: inline-block;
     padding: 5px;
-    padding-left: 10px;
+    padding-left: .5rem;
     background: transparent;
     color: var(--color-content-1);
     text-decoration: none;
     position: relative;
-    font-size: 12px;
+    font-size: .6rem;
     font-family: var(--avenir-roman);
     border: var(--color-primary) solid 1px;
     font-weight: 500;
@@ -33,7 +32,7 @@
     margin-top: -14px;
 }
 
-.learn-more-button::after {
+.primary-button::after {
     content: "";
     position: absolute;
     width: 1px;
