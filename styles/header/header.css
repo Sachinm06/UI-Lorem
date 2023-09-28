@@ -58,7 +58,7 @@ nav {
 
 .navbar-nav {
     display: flex;
-    margin-top: 2.5rem;
+    margin-top: 46px;
 }
 .navbar-nav li {
     margin-right: 1.5rem;
@@ -84,7 +84,7 @@ nav {
     display: inline-block;
     position: relative;
     left: 0;
-    top: 3.4rem;
+    top: 65px;
     width: 2.6rem;
     z-index: 1000;
 }
@@ -121,8 +121,8 @@ nav {
 
 .search {
     position: absolute;
-    top: 7rem;
-    right: 4.5rem !important;
+    top: 135px;
+    right: 3.5rem !important;
     z-index: 3;
 }
 
@@ -171,16 +171,4 @@ nav {
     background-image: url('./images/search_close.jpg');
 }
 /* ------ */
-
-#toggleButton .close-icon {
-    display: none;
-}
-
-#toggleButton.toggled .open-icon {
-    display: none;
-}
-
-#toggleButton.toggled .close-icon {
-    display: inline;
-}
 
