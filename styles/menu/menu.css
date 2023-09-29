@@ -21,15 +21,22 @@ p {
 
 .banner-menu .container h2 {
     font-family: var(--avenir-medium);
-    font-size: 42px;
+    font-size: 2.6rem;
     font-weight: 500;
     color: var(--color-secondary);
 }
 
 .banner-menu p {
-    font-size: 18px;
+    font-size: 1.1rem;
     margin-top: 30px;
     color: #231f20;
     font-family: var(--avenir-roman);
     line-height: 28px;
+}
+.menu-txt{
+    margin-left: 2rem;
+}
+.menu-img{
+    display: flex;
+    justify-content: center;
 }

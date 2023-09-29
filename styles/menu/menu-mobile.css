@@ -1,0 +1,12 @@
+.menu-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-img img{
+    width: 300px;
+}
+.banner-menu p {
+    width: 100%;
+    font-size: .6rem;
+}

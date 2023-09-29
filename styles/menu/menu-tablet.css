@@ -1,15 +1,18 @@
 @media screen and (max-width: 767px) {
     .banner-menu .container h2 {
-        font-size: 22px;
-        color: var(--color-content-1);
-        margin-top: -15px;
+        font-size: 2rem;
+        color: var(--color-secondary);
+        margin-top: 1rem;
     }
     .banner-menu p {
-        font-size: 8px;
+        font-size: 13px;
         color: var(--color-content-1);
-        width: 70%;
         margin-top: 0;
     }
+    .menu-txt{
+        margin-left: 0;
+    }
+  
 }
 
 @media screen and (max-width: 770px) {
@@ -17,14 +20,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-}
+        margin-top: -5rem;
 
-/* @media screen and (max-width: 765px) {
-    .watermark {
-        width: inherit;
     }
-    .mbutton {
-        margin-bottom: 40px;
-    }
-} */
+    
+}
