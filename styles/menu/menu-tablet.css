@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+    .banner-menu .container h2 {
+        font-size: 22px;
+        color: var(--color-content-1);
+        margin-top: -15px;
+    }
+    .banner-menu p {
+        font-size: 8px;
+        color: var(--color-content-1);
+        width: 70%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .menu-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* @media screen and (max-width: 765px) {
+    .watermark {
+        width: inherit;
+    }
+    .mbutton {
+        margin-bottom: 40px;
+    }
+} */

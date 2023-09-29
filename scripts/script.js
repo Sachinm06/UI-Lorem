@@ -23,8 +23,8 @@ $(document).ready(function () {
     $('.slider-img').slick({
         dots: true,
         arrows: false,
-        // autoplay: true,
-        // autoplaySpeed: 1500,
+        autoplay: true,
+        autoplaySpeed: 1500,
         // fade:true,
         // fadeSpeed:1000
     })

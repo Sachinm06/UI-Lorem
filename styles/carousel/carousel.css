@@ -21,8 +21,9 @@
 
 .slide-text {
     position: absolute;
-    top: 7.5rem;
     left: 6rem;
+    top: 50%;
+    transform: translate(0%, -50%);
     color: var(--color-content-1);
 }
 
@@ -45,6 +46,7 @@
     height: 550px;
     width: 100%;
 }
+
 /* -----circle button---- */
 
 .slick-dots {

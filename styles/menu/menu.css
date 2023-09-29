@@ -1,0 +1,35 @@
+.banner-menu {
+    position: relative;
+    background: url('/images/banner_Menu_1920_600.jpg') center/cover no-repeat;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+
+.banner-menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-menu .container h2,
+p {
+    text-align: start;
+    margin-top: 80px;
+}
+
+.banner-menu .container h2 {
+    font-family: var(--avenir-medium);
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+
+.banner-menu p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #231f20;
+    font-family: var(--avenir-roman);
+    line-height: 28px;
+}
