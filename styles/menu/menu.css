@@ -1,6 +1,6 @@
 .banner-menu {
     position: relative;
-    background: url('/images/banner_Menu_1920_600.jpg') center/cover no-repeat;
+    background: url(/images/banner_Menu_1920_600.jpg) center/cover no-repeat;
     display: flex;
     overflow: hidden;
     width: 100%;
