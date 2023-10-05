@@ -1,12 +1,12 @@
-.menu-img{
+.block-img{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.menu-img img{
+.block-img img{
     width: 300px;
 }
-.banner-menu p {
+.block-0 p {
     width: 100%;
     font-size: .6rem;
 }

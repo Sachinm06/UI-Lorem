@@ -1,22 +1,22 @@
 @media screen and (max-width: 767px) {
-    .banner-menu .container h2 {
+    .block-0 .container h2 {
         font-size: 2rem;
         color: var(--color-secondary);
         margin-top: 1rem;
     }
-    .banner-menu p {
+    .block-0 p {
         font-size: 13px;
         color: var(--color-content-1);
         margin-top: 0;
     }
-    .menu-txt{
+    .block-txt{
         margin-left: 0;
     }
   
 }
 
 @media screen and (max-width: 770px) {
-    .menu-txt {
+    .block-txt {
         display: flex;
         flex-direction: column;
         align-items: center;

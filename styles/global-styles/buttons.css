@@ -5,7 +5,8 @@
 
 .primary-button {
     display: inline-block;
-    padding: 6px;
+    padding: 7px;
+    padding-right: 35px;
     padding-left: .5rem;
     background: transparent;
     color: var(--color-content-1);
@@ -32,12 +33,12 @@
 .arr{
     display: inline;
     position: absolute;
-    height: 11px;
-    width: 11px;
+    height: 10px;
+    width: 10px;
     border-top: 1.5px solid var(--color-content-1);
     border-left: 1.5px solid var(--color-content-1);
     transform: rotate(130deg);
-    right: 0.5rem;
+    right: 0.7rem;
     top: 8px;
     }
 
