@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    #block1 article .lorem-page {
+        height: auto;
+    }
+
+    .lorem-caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #block1 article .lorem-page p {
+        margin-left: 0px;
+    }
+
+    .lorem-h1 {
+        font-size: 8px;
+        color: var(--color-content-1);
+    }
+
+    .lorem-p1 {
+        width: auto;
+    }
+
+    .lorem-p2 {
+        font-size: 10px;
+        color: var(--color-content-1);
+    }
+
+    .report-txt1 {
+        font-size: 8px;
+    }
+
+    .report-txt2 {
+        font-size: 13px;
+    }
+
+    .column-1 {
+        display: flex;
+        justify-content: center;
+    }
+}

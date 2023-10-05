@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+    .col-lg-1:nth-child(1),
+    .col-lg-1:nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .lorem-p1 {
+        font-size: .8rem;
+        color: var(--color-content-1);
+    }
+    .main-card {
+        display: flex;
+        align-items: center;
+    }
+    .m1img {
+        width: 183px;
+    }
+}

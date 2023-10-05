@@ -1,0 +1,36 @@
+@media screen and (max-width: 991px) {
+    .m1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main-card {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 990px) {
+    .lorem-caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1003px) {
+    #block1 article .LoremImg {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .m1second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 990px) {
+    #btn-1 {
+        margin-bottom: 1.9rem;
+    }
+}

@@ -1,0 +1,165 @@
+#block1 {
+    margin-top: 4.375rem;
+}
+
+.publication {
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.main-card {
+    margin-left: -15px;
+}
+#block1 h2 {
+    font-family: var(--avenir-medium);
+    font-size: 2.625rem;
+    font-weight: 500;
+    color: var(--color-secondary);
+    margin-bottom: 2.3rem;
+    margin-top: -9px;
+}
+
+#block1 article .lorem-page {
+    padding: 3.1rem;
+    background-color: var(--color-primary);
+    height: 582px;
+}
+
+#block1 article .lorem-page p {
+    margin-left: 1.43rem;
+}
+
+#block1 article .LoremImg {
+    width: 198px;
+    margin-left: 2.5rem;
+}
+
+.lorem-h1 {
+    color: var(--color-content-1);
+    font-family: var(--avenir-book);
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.lorem-p1 {
+    font-family: var(--avenir-medium);
+    font-size: 1.3rem;
+    color: var(--color-content-1);
+    line-height: 1.7rem;
+    width: 110% !important;
+    margin-top: -11px;
+}
+.lorem-div {
+    display: flex;
+    align-items: center;
+}
+
+.lorem-p2 {
+    font-family: var(--avenir-medium);
+    font-size: 1rem;
+    color: var(--color-content-1);
+    width: 110%;
+    line-height: 26px;
+    margin-top: -3px;
+}
+
+.lorem-text {
+    background-color: #E6E7E8;
+    width: 210px !important;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-box {
+    width: auto !important;
+    margin-left: 5px;
+}
+
+/* ---------------- */
+
+.button-container4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondary-button {
+    color: var(--color-content-4);
+    border: none;
+    padding: 0;
+    align-items: center;
+}
+
+.secondary-button:hover {
+    color: var(--color-primary);
+
+}
+
+.button-container4 button {
+    background-color: var(--color-primary);
+}
+
+.button-container4 :hover button {
+    background-color: var(--color-secondary);
+    border: var(--color-secondary) solid 1px;
+
+}
+
+#btn-1 {
+    margin-right: -12px;
+}
+
+.button-container3 a {
+    padding-right: 0;
+    color: var(--color-secondary);
+}
+
+.learn-more-button3 {
+
+    color: var(--color-secondary);
+    border: var(--color-secondary) solid 1px;
+}
+
+.viewAllbtn:hover {
+    color: var(--color-content-1);
+
+    background: var(--color-primary);
+    border: var(--color-content-1) solid 1px;
+
+}
+
+.learn-more-button3::after {
+    background-color: var(--color-secondary);
+
+}
+
+.learn-more-button3:hover:after {
+    background-color: var(--color-content-1);
+
+}
+.report-txt1 {
+    font-size: .8rem;
+    color: var(--color-content-3);
+    font-family: var(--avenir-medium);
+    margin-bottom: 7px;
+}
+
+.report-txt2 {
+    font-size: 1.1rem;
+    color: var(--color-secondary);
+    font-family: var(--avenir-medium);
+    text-align: start;
+}
+
+.report-txt2 p {
+    margin-bottom: 8px;
+}
+.column-1 {
+    margin-bottom: 2.5rem;
+    display: flex;
+    margin-left: -5px;
+}

@@ -13,11 +13,10 @@
     justify-content: center;
 }
 
-.block-0 .container h2,
+/* .block-0 .container h2,
 p {
     text-align: start;
-    margin-top: 80px;
-}
+} */
 
 .block-0 .container h2 {
     font-family: var(--avenir-medium);
@@ -35,6 +34,8 @@ p {
 }
 .block-txt{
     margin-left: 2rem;
+    margin-top: 80px;
+
 }
 .block-img{
     display: flex;

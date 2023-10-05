@@ -1,9 +1,18 @@
 
 
-$(document).ready(function () {
+// ------------search icon--------------
+
+const toggleImage = document.getElementById('toggleImage');
+const inputBox = document.getElementById('inputBox');
+
+toggleImage.addEventListener('click', () => {
+  inputBox.classList.toggle('hidden');
+  toggleImage.classList.toggle('close');
+});
 
   // -----------nav closing button---------
 
+  $(document).ready(function () {
   var isOpen = false;
   $('#toggleButton').click(function () {
     isOpen = !isOpen;
@@ -17,17 +26,5 @@ $(document).ready(function () {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 1500,
-    // fade:true,
-    // fadeSpeed:1000
   })
-});
-
-// ------------search icon--------------
-
-const toggleImage = document.getElementById('toggleImage');
-const inputBox = document.getElementById('inputBox');
-
-toggleImage.addEventListener('click', () => {
-  inputBox.classList.toggle('hidden');
-  toggleImage.classList.toggle('close');
 });

@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="./styles/global-styles/buttons.css">
     <link rel="stylesheet" href="./styles/header/header.css">
     <link rel="stylesheet" href="./styles/carousel/carousel.css">
-    <link rel="stylesheet" href="./styles/menu/menu.css">
+    <link rel="stylesheet" href="./styles/block/block.css">
+    <link rel="stylesheet" href="./styles/block-1/block-1.css">
     <!-- Media query -->
     <link rel="stylesheet" media="screen and (max-width: 300px)" href="./styles/header/xs-header.css">
     <link rel="stylesheet" media="screen and (max-width: 992px),screen and (min-width: 992px)"
@@ -33,9 +34,12 @@
     <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./styles/header/large-header.css">
     <link rel="stylesheet" media="screen and (max-width: 1200px)" href="./styles/carousel/carousel-tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 991px)" href="./styles/carousel/carousel-mobile.css">
-    <link rel="stylesheet" media="screen and (max-width: 770px)" href="./styles/menu/menu-tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 450px)" href="./styles/menu/menu-mobile.css">
-
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="./styles/block/block-tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="./styles/block/block-mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 550px)" href="./styles/block-1/block-1-small.css">
+    <link rel="stylesheet" media="screen and (max-width: 770px)" href="./styles/block-1/block-1-medium.css">
+    <link rel="stylesheet" media="screen and (max-width: 1003px)" href="./styles/block-1/block-1-large.css">
+    <link rel="stylesheet" media="screen and (max-width: 1400px)" href="./styles/block-1/block-1-xl.css">
 
 
 
@@ -43,197 +47,268 @@
 
 <body>
 
-    <header>
-        <!----------- logo section---------------->
+    <main>
 
-        <div class="brand-logo">
-            <a class="navbar-brand " href="#">
-                <img src="./images/Logo.png" alt="lorem logo" class="logo">
-            </a>
-        </div>
+        <header>
+            <!----------- logo section---------------->
 
-        <!-- ------navigation section-------- -->
-
-        <nav class="navbar navbar-expand-lg navBar">
-            <div class="container-fluid menuIcon">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="toggleButton">
-                    ☰
-                </button>
+            <div class="brand-logo">
+                <a class="navbar-brand " href="#">
+                    <img src="./images/Logo.png" alt="lorem logo" class="logo">
+                </a>
             </div>
-            <div class="collapse navbar-collapse me-5" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#menu">MENU</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#menu1">MENU 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#menu2">MENU 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#menu-3-4">MENU 3</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#menu-3-4">MENU 4</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#footer">MENU 5</a>
-                    </li>
-                </ul>
-                <div class="sm-search">
-                    <input type="text" class=" custom-input" placeholder="Search" aria-label="Search">
+
+            <!-- ------navigation section-------- -->
+
+            <nav class="navbar navbar-expand-lg navBar">
+                <div class="container-fluid menuIcon">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                        id="toggleButton">
+                        ☰
+                    </button>
                 </div>
-            </div>
-        </nav>
-
-        <!-- ------search area----------- -->
-
-        <div class="search-area">
-            <div class="search-icon">
-                <img id="toggleImage" class="toggle-image" src="./images/search.png" alt="search image">
-            </div>
-            <div id="inputBox" class="hidden search">
-                <input id="speechToText" type="text" class="search__input" placeholder="Search">
-                <button class="search__button">
-                    <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
-                        <g>
-                            <path
-                                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-                            </path>
-                        </g>
-                    </svg>
-                </button>
-            </div>
-        </div>
-
-    </header>
-
-    <!-- ----------------------------------------------carousel-------------------------------->
-
-    <section>
-        <div class="slider-area">
-            <div class="slider-img">
-                <div class="slide">
-                    <div class="slide-text">
-
-                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
-                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
-                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
-
-                        <button class="button-container primary-button buttonB">
-                            LEARN MORE
-                            <div class="arr"></div>
-                        </button>
-
+                <div class="collapse navbar-collapse me-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu1">MENU 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu2">MENU 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu-3-4">MENU 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#menu-3-4">MENU 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#footer">MENU 5</a>
+                        </li>
+                    </ul>
+                    <div class="sm-search">
+                        <input type="text" class=" custom-input" placeholder="Search" aria-label="Search">
                     </div>
-                    <img src="./images/banner_1920_550.jpg" alt="">
                 </div>
-                <div class="slide">
-                    <div class="slide-text">
+            </nav>
 
-                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
-                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
-                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
+            <!-- ------search area----------- -->
 
+            <div class="search-area">
+                <div class="search-icon">
+                    <img id="toggleImage" class="toggle-image" src="./images/search.png" alt="search image">
+                </div>
+                <div id="inputBox" class="hidden search">
+                    <input id="speechToText" type="text" class="search__input" placeholder="Search">
+                    <button class="search__button">
+                        <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                            <g>
+                                <path
+                                    d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                </path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- ----------------------------------------------carousel-------------------------------->
+
+        <section>
+            <div class="slider-area">
+                <div class="slider-img">
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                            <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                                volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea comm...</p>
                             <button class="button-container primary-button buttonB">
                                 LEARN MORE
                                 <div class="arr"></div>
                             </button>
+                        </div>
+                        <img src="./images/banner_1920_550.jpg" alt="">
                     </div>
-                    <img src="./images/banner_1920_550.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="slide-text">
-
-                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
-                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
-                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
-
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                            <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                                volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea comm...</p>
                             <button class="button-container primary-button buttonB">
                                 LEARN MORE
                                 <div class="arr"></div>
                             </button>
+                        </div>
+                        <img src="./images/banner_1920_550.jpg" alt="">
                     </div>
-                    <img src="./images/banner_1920_550.jpg" alt="">
-                </div>
-                <div class="slide">
-
-                    <img src="./images/banner_1920_550.jpg" alt="">
-                    <div class="slide-text">
-
-                        <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
-                        <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
-                            volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
-                            suscipit lobortis nisl ut aliquip ex ea comm...</p>
-
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                            <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                                volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea comm...</p>
                             <button class="button-container primary-button buttonB">
                                 LEARN MORE
                                 <div class="arr"></div>
                             </button>
+                        </div>
+                        <img src="./images/banner_1920_550.jpg" alt="">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- -----------------------------------------block-0--------------------------------------- -->
-
-    <section>
-        <div class="block-0" id="block">
-            <article class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 block-img">
-                        <img src="./images/logo_watermark.png" alt="" class="watermark">
-                    </div>
-                    <div class="col-lg-5 col-md-5 block-txt">
-                        <h2>MENU</h2>
-                        <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<undefined> <div class="arr"></div></undefined>
-                            euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                            consequat. Duis autem vel eum</p>
-                        <!-- <div class="button-container2 mbutton">
-                            <a href="#" class="primary-button-2 primary-button buttonM">
+                    <div class="slide">
+                        <img src="./images/banner_1920_550.jpg" alt="">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</h2>
+                            <p>Elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <br> aliquam erat
+                                volutpat. Ut wisi enim ad minim veniam, quis nostrud <br>exerci tation ullamcorper
+                                suscipit lobortis nisl ut aliquip ex ea comm...</p>
+                            <button class="button-container primary-button buttonB">
                                 LEARN MORE
-                                <button>
-                                    <img src="./images/learnmore_banner.png" alt="Arrow" class=" bordered-image1">
-                                </button>
-                                <div class="arr bordered-image1"></div>
-                            </a>
-                        </div> -->
-                        <div class="button-container2 mbutton primary-button-2 primary-button buttonM">
-                            LEARN MORE
-                            <button>
                                 <div class="arr"></div>
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-1"></div>
-                </div><undefined><div class="arr"></div></undefined>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------- block 0 --------------------------------------- -->
+
+        <section>
+            <div class="block-0" id="block">
+                <article class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 block-img">
+                            <img src="./images/logo_watermark.png" alt="" class="watermark">
+                        </div>
+                        <div class="col-lg-5 col-md-5 block-txt">
+                            <h2>MENU</h2>
+                            <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat. Duis autem vel eum
+                            </p>
+                            <div class="button-container2 mbutton primary-button-2 primary-button buttonM">
+                                LEARN MORE
+                                <button class="image-button">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1"></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------- block 1 --------------------------------------- -->
+
+        <section id="block1">
+            <h2 class="text-center"> MENU 1</h2>
+            <article class="container m1">
+                <div class="row">
+                    <div class="col-lg-1 "></div>
+                    <div class="col-lg-6 col-md-12 first-column">
+                        <!-- First Column -->
+                        <div class="row lorem-page">
+                            <div class="publication">
+                                <img src="./images/publication.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 main-card">
+                                <img src="./images/274_355.jpg" alt="" class="m1img">
+                            </div>
+                            <div class="col-lg-6 col-md-12 lorem-div">
+                                <div class="lorem-caption">
+                                    <p class="lorem-h1">Lorem ipsum</p>
+                                    <p class="lorem-p1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy
+                                        nibh euis- mod tincidunt ut</p>
+                                    <p class="lorem-p2">Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                        ullamcorper suscipit
+                                        lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-container4 secondary-button primary-button" id="btn-1">
+                            LEARN MORE
+                            <button class="image-button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 m1second">
+                        <!-- Second Column -->
+                        <div class="column-1">
+                            <div class=" LoremImg">
+                                <img src="./images/198_256_1.jpg" alt="" class="m1img2">
+                            </div>
+                            <div class="text-box">
+                                <div class=" container lorem-text">
+                                    <p class="report-txt1">LOREM</p>
+                                    <p class="report-txt2">Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                        ullamcorper
+                                    </p>
+                                </div>
+                                <div class="button-container4 secondary-button primary-button" id="M1btn">
+                                    LEARN MORE
+                                    <button class="image-button">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column-1">
+                                <div class="LoremImg">
+                                    <img src="./images/198_256_2.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+                                    <div class=" lorem-text container">
+
+                                        <p class="report-txt1">LOREM IPSUM DOLOR</p>
+                                        <p class="report-txt2">Ut wisi enim ad minim veniam, quis nostrud exerci
+                                        </p>
+                                    </div>
+                                    <div class="button-container4 secondary-button primary-button" id="M1btn">
+                                        LEARN MORE
+                                        <button class="image-button">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 "></div>
+                </div>
             </article>
-        </div>
-    </section>
+            <div class="button-container3 text-center">
+                <button class="button-container primary-button buttonB view-btn">
+                    VIEW ALL
+                    <div class="arr arr-1"></div>
+                </button>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------- block 2 --------------------------------------- -->
 
 
 
 
 
 
+        <!-- -----------------------------------scripts----------------------------- -->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="./scripts/script.js"></script>
 
-
-    <!-- -----------------------------------scripts----------------------------- -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="./scripts/script.js"></script>
+    </main>
 </body>
 
 </html>
