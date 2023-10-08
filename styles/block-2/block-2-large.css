@@ -1,0 +1,13 @@
+@media screen and (max-width: 990px) {
+    .btn-4 {
+        margin-bottom: 40px;
+    }
+    #viewAll {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .image-container {
+        width: auto;
+    }
+}

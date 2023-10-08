@@ -1,0 +1,21 @@
+@media screen and (max-width: 1260px) {
+    #block-3-4 #row-1 {
+        height: 100%;
+    }
+
+    #row-2 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1252px) {
+    .calander-items {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .viewbtn1 {
+        margin-top: 20px;
+    }
+}

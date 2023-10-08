@@ -18,7 +18,10 @@
     cursor: pointer;
 }
 .view-btn{
-    color: var(--color-primary);
+    color: var(--color-secondary);
+    border: var(--color-secondary) solid 1px;
+    margin-bottom: 4.3rem;
+
 }
 .view-btn:hover{
     background-color: var(--color-primary);
@@ -37,6 +40,10 @@
     /* vertically center an element */
     transform: translateY(-50%);
 }
+.view-btn::after{
+    background-color: var(--color-secondary);
+
+}
 
 .arr {
     display: inline;
@@ -50,8 +57,8 @@
     top: .5rem;
 }
 .arr-1{
-    border-top: 1.5px solid var(--color-primary);
-    border-left: 1.5px solid var(--color-primary);
+    border-top: 1.5px solid var(--color-secondary);
+    border-left: 1.5px solid var(--color-secondary);
 }
 
 .button-container:hover .arr-1 {
@@ -96,3 +103,22 @@
   }
 
   /* -- */
+
+  #menu-3-4 .button-container3 a {
+    padding-right: 0;
+    color: var(--color-content-1);
+}
+
+
+.view-btn-2::after {
+    background: var(--color-content-1);
+}
+
+.view-btn-2 {
+    border: 1px solid var(--color-content-1);
+    margin-top: 30px;
+}
+.view-btn-2:hover{
+background: var(--color-secondary);
+border: none;
+}

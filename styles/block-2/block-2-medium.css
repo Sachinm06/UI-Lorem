@@ -1,0 +1,35 @@
+@media screen and (max-width: 800px) {
+    .image-text {
+        width: 75%;
+    }
+    .block-2-second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #block-2 .row {
+        display: contents;
+    }
+    #block-2 .block-2-img {
+        width: auto;
+        height: auto;
+        margin-bottom: 3.1rem;
+        overflow: hidden;
+        background-size: contain;
+        display: contents;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #block-2 .child-1 {
+        margin-bottom: 40px;
+    }
+    .btn-4 {
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 801px) {
+    .btn-4 {
+        margin-right: 72px;
+    }
+}

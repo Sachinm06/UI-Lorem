@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+    #block-2 .block-2-img {
+        margin-right: 0px;
+
+    }
+}
+@media screen and (max-width: 1400px) {
+    #block-2 .block-2-img {
+        margin-bottom: 50px;
+    }
+    .image-container {
+        width: -webkit-fill-available;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-4 {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+

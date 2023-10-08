@@ -1,0 +1,138 @@
+#block-3-4 {
+    color: var(--color-content-1);
+    position: relative;
+    background: url('../../images/1920_808.jpg') center/cover no-repeat;
+    overflow-x: hidden;
+}
+
+#block-3-4 #row-1 {
+    background-color: #04a0a08a;
+    /* opacity: 0.7; */
+    height: 830px;
+}
+
+
+
+#row-2 {
+    background: #002e5d8a;
+    /* opacity: 0.7; */
+    height: 830px;
+}
+
+
+#block-3-4 .nested-column-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-top: 30px;
+}
+
+#block-3-4 .nested-column-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    /* margin-bottom: auto; */
+}
+
+#nested-1 {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: inherit;
+}
+
+#nested-2 {
+    margin-right: auto;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.nested-column {
+    width: 72%;
+}
+
+.block-3-4-head {
+    margin-bottom: 16px;
+    font-family: var(--avenir-medium);
+    font-size: 42px;
+}
+
+.calander-items {
+    display: flex;
+    margin-bottom: -5px;
+}
+
+.calander {
+    width: 100px;
+    height: 100px;
+    background: var(--color-content-1);
+    color: var(--color-secondary);
+    display: grid;
+    text-align: center;
+    font-size: 55px;
+    font-family: var(--avenir-light);
+}
+
+.calanderEdited {
+    margin-bottom: 17px;
+}
+
+.calander-month {
+    width: 100px;
+    height: 25px;
+    background: var(--color-content-6);
+    color: var(--color-content-1);
+    font-size: 14px;
+    font-family: var(--avenir-black);
+}
+
+.calander-items p {
+    margin-left: 49px;
+    font-size: 1.3rem;
+    line-height: 27px;
+    font-family: var(--avenir-medium);
+    margin-bottom: inherit;
+}
+
+#menu4P {
+    margin-left: 30px;
+}
+
+.calander-items p span {
+    font-size: .8rem;
+    font-family: var(--avenir-book);
+    display: block;
+}
+
+.block3Sub {
+    margin-top: 16px;
+}
+
+.nested-img {
+    width: 172px;
+    height: 112px;
+    margin-bottom: 32px;
+    margin-top: 4px;
+}
+
+#nested-2 .calander-items span {
+    color: var( --color-content-5);
+    font-size: .8rem;
+}
+
+.border-btm {
+    border-bottom: var(--color-content-1) 1px solid;
+    padding-bottom: 22px;
+}
+
+.border-btm2 {
+    border-bottom: var(--color-content-1) 1px solid;
+    padding-top: 22px;
+}
+
+.menu4Button {
+    margin-top: 26px;
+}

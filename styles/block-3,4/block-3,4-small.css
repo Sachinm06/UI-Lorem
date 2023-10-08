@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    .menu4Button {
+        margin-bottom: 0px;
+    }
+
+    .calander-items p {
+        font-size: .7rem;
+    }
+
+    .calander-items p span {
+        font-size: .6rem;
+    }
+
+    #nested-2 .calander-items span {
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #menu4P {
+        margin-bottom: 10px;
+    }
+}
