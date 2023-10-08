@@ -1,6 +1,6 @@
 .block-0 {
     position: relative;
-    background: url('/images/banner_Menu_1920_600.jpg');
+    background: url('../../images/banner_Menu_1920_600.jpg');
     display: flex;
     overflow: hidden;
     width: 100%;
