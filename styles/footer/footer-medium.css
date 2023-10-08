@@ -1,0 +1,21 @@
+@media screen and (max-width: 770px) {
+    .form-footer {
+        display: flex;
+    }
+    #social-media {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo-part {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    #subscribe {
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+

@@ -1,0 +1,26 @@
+    .bg-grey h6 {
+        display: none;
+    }
+
+    .bg-grey ul li a {
+        font-size: .5rem;
+    }
+
+    .logo-part {
+        border: none;
+        padding-left: 0px;
+    }
+
+    #social-media h5 {
+        display: flex;
+        flex-direction: column;
+        font-size: .8rem;
+    }
+
+    #subscribe {
+        display: block;
+    }
+
+    #sub-footer {
+        font-size: .5rem;
+    }
