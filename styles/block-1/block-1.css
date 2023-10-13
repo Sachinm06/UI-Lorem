@@ -78,69 +78,11 @@
 .text-box {
     width: auto !important;
     margin-left: 5px;
+    height: 100%; /* Ensure the container takes full height */
+
 }
 
 /* ---------------- */
-
-.button-container4 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.secondary-button {
-    color: var(--color-content-4);
-    border: none;
-    padding: 0;
-    align-items: center;
-}
-
-.secondary-button:hover {
-    color: var(--color-primary);
-
-}
-
-.button-container4 button {
-    background-color: var(--color-primary);
-}
-
-.button-container4 :hover button {
-    background-color: var(--color-secondary);
-    border: var(--color-secondary) solid 1px;
-
-}
-
-#btn-1 {
-    margin-right: -12px;
-}
-
-.button-container3 a {
-    padding-right: 0;
-    color: var(--color-secondary);
-}
-
-.learn-more-button3 {
-
-    color: var(--color-secondary);
-    border: var(--color-secondary) solid 1px;
-}
-
-.viewAllbtn:hover {
-    color: var(--color-content-1);
-
-    background: var(--color-primary);
-    border: var(--color-content-1) solid 1px;
-
-}
-
-.learn-more-button3::after {
-    background-color: var(--color-secondary);
-
-}
-
-.learn-more-button3:hover:after {
-    background-color: var(--color-content-1);
-
-}
 .report-txt1 {
     font-size: .8rem;
     color: var(--color-content-3);

@@ -4,8 +4,9 @@
     }
 
     #row-2 {
-        height: auto;
+        height: 100%;
     }
+
 }
 
 @media screen and (max-width: 1252px) {
@@ -17,5 +18,15 @@
 @media screen and (max-width: 1240px) {
     .viewbtn1 {
         margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .block-3-subhead {
+        font-size: .8rem;
+
+    }
+
+    .block-date {
+        font-size: .7rem;
     }
 }

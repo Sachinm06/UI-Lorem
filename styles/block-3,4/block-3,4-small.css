@@ -3,16 +3,13 @@
         margin-bottom: 0px;
     }
 
-    .calander-items p {
+    .block-3-subhead {
         font-size: .7rem;
+
     }
 
-    .calander-items p span {
+    .block-date {
         font-size: .6rem;
-    }
-
-    #nested-2 .calander-items span {
-        font-size: .5rem;
     }
 }
 

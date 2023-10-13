@@ -93,12 +93,6 @@ nav {
     margin-top: auto;
 }
 
-/* #toggleImage {
-    width: 100%;
-    height: 100%;
-    transition: all 0.3s ease;
-} */
-
 .custom-input {
     border-radius: 1rem;
 }
@@ -159,16 +153,10 @@ nav {
 .search__button:hover {
     cursor: pointer;
 }
------
+
 .toggle-image {
     width: 50px;
     height: 50px;
-    background-image: url('./images/search.png');
+    background-image: url('../../images/search.png');
     background-size: cover;
 }
-
-.toggle-image.close {
-    background-image: url('./images/search_close.jpg');
-}
-/* ------ */
-

@@ -17,13 +17,15 @@
     font-weight: 500;
     cursor: pointer;
 }
-.view-btn{
+
+.view-btn {
     color: var(--color-secondary);
     border: var(--color-secondary) solid 1px;
     margin-bottom: 4.3rem;
 
 }
-.view-btn:hover{
+
+.view-btn:hover {
     background-color: var(--color-primary);
     color: var(--color-content-1);
 
@@ -40,7 +42,8 @@
     /* vertically center an element */
     transform: translateY(-50%);
 }
-.view-btn::after{
+
+.view-btn::after {
     background-color: var(--color-secondary);
 
 }
@@ -56,14 +59,16 @@
     right: 0.7rem;
     top: .5rem;
 }
-.arr-1{
+
+.arr-1 {
     border-top: 1.5px solid var(--color-secondary);
     border-left: 1.5px solid var(--color-secondary);
 }
 
 .button-container:hover .arr-1 {
     border-top: 1.5px solid var(--color-content-1);
-    border-left: 1.5px solid var(--color-content-1);}
+    border-left: 1.5px solid var(--color-content-1);
+}
 
 /* ------ */
 
@@ -82,6 +87,7 @@
 .primary-button-2::after {
     background-color: transparent;
 }
+
 /* ---- */
 
 .buttonM:hover {
@@ -93,18 +99,20 @@
 }
 
 .image-button {
-    height:1.9rem; 
-    background: url('../../images/learnmore_banner.png') ; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    height: 1.9rem;
+    background: url('../../images/learnmore_banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid var(--color-primary);
     margin-left: 15px;
     width: 1.9rem;
-  }
+    background-color:var(--color-primary) ;
 
-  /* -- */
+}
 
-  #menu-3-4 .button-container3 a {
+/* -- */
+
+#menu-3-4 .button-container3 a {
     padding-right: 0;
     color: var(--color-content-1);
 }
@@ -118,7 +126,89 @@
     border: 1px solid var(--color-content-1);
     margin-top: 30px;
 }
-.view-btn-2:hover{
-background: var(--color-secondary);
-border: none;
+
+.view-btn-2:hover {
+    background: var(--color-secondary);
+    border: none;
+}
+.block-btn-div{
+    display: flex;
+    justify-content: end;
+}
+.block-btn-div button{
+    margin-right: -12px;
+}
+
+.block-btn-2{
+display: flex;
+justify-content: end;
+}
+.block-btn-3{
+    width: 232px;
+}
+/* -- */
+
+.button-container4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondary-button {
+    color: var(--color-content-4);
+    border: none;
+    padding: 0;
+    align-items: center;
+    background: transparent;
+    font-size: .6rem;
+}
+
+.secondary-button:hover {
+    color: var(--color-primary);
+
+}
+
+.button-container4 button {
+    background-color: var(--color-primary);
+}
+
+.button-container4 :hover button {
+    background-color: var(--color-secondary);
+    border: var(--color-secondary) solid 1px;
+
+}
+
+#btn-1 {
+    margin-right: -12px;
+}
+
+.button-container3 a {
+    padding-right: 0;
+    color: var(--color-secondary);
+}
+
+.learn-more-button3 {
+
+    color: var(--color-secondary);
+    border: var(--color-secondary) solid 1px;
+}
+
+.viewAllbtn:hover {
+    color: var(--color-content-1);
+
+    background: var(--color-primary);
+    border: var(--color-content-1) solid 1px;
+
+}
+
+.learn-more-button3::after {
+    background-color: var(--color-secondary);
+
+}
+
+.learn-more-button3:hover:after {
+    background-color: var(--color-content-1);
+
+}
+.image-button-background{
+    background-color:transparent;
 }
