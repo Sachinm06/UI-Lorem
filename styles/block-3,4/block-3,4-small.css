@@ -4,12 +4,15 @@
     }
 
     .block-3-subhead {
-        font-size: .7rem;
+        font-size: .7rem !important;
 
     }
-
     .block-date {
-        font-size: .6rem;
+        font-size: .6rem !important;
+    }
+    .calander-items p{
+        font-size: .8rem !important;
+
     }
 }
 

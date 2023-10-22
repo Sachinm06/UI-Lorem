@@ -8,10 +8,6 @@
 }
 
 #block-2 h2 {
-    font-family: var(--avenir-medium);
-    font-size: 2.6rem;
-    font-weight: 500;
-    color: var(--color-secondary);
     margin-bottom: 50px;
     padding-top: 70px;
 }
@@ -63,6 +59,7 @@
     font-size: .8rem;
     font-family: var(--avenir-book);
     margin-top: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .card2 {
@@ -71,7 +68,11 @@
     margin-top: -14px;
     font-size: 1.1rem;
 }
+.card2 a{
+    text-decoration: none;
+    color: var(--color-content-3);
 
+}
 #viewAll {
     margin-bottom: 70px;
 }

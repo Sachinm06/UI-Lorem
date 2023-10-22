@@ -12,18 +12,13 @@
     align-items: center;
     justify-content: center;
 }
-
-/* .block-0 .container h2,
-p {
-    text-align: start;
-} */
-
-.block-0 .container h2 {
+.block-title{
     font-family: var(--avenir-medium);
     font-size: 2.6rem;
     font-weight: 500;
     color: var(--color-secondary);
 }
+
 
 .block-0 p {
     font-size: 1.1rem;

@@ -37,6 +37,9 @@
     margin-top: 70px;
     /* margin-bottom: auto; */
 }
+.title-3-4{
+    color: var(--color-content-1);
+}
 
 .nested-1 {
     margin-left: auto;
@@ -90,7 +93,7 @@
 }
 
 .calander-items p {
-    margin-left: 49px;
+    /* margin-left: 49px; */
     font-size: 1.3rem;
     line-height: 27px;
     font-family: var(--avenir-medium);
@@ -109,7 +112,7 @@
 
 .block-date {
     margin-top: 16px;
-    font-size: .8rem;
+    font-size: .8rem !important;
 }
 
 .nested-img {
